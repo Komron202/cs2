@@ -1,0 +1,91 @@
+/* Umumiy sozlamalar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.play-btn {
+    background: #2a9df4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.player-count, .language {
+    font-size: 14px;
+}
+
+/* Banner */
+.banner {
+    background: url('fon.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.title {
+    background: yellow;
+    color: black;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* O'yinchilar */
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.player {
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.player img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 5px solid yellow;
+}
+
+.player h2 {
+    background: black;
+    color: yellow;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.5);
+}
+
+/* Footer */
+footer {
+    padding: 30px;
+}
+
+.info {
+    font-size: 30px;
+    text-shadow: 3px 3px 5px gray;
+}
